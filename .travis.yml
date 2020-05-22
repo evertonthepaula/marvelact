@@ -1,0 +1,27 @@
+language: node_js
+
+node_js:
+  - "lts/*"
+
+before_install:
+
+install:
+  - npm install
+
+before_script:
+
+script:
+  - npm run lint
+  - npm test -- --watchAll=false
+
+after_success:
+
+before_deploy:
+  - npm run build
+
+deploy:
+  - bash ./travis/deploy.sh
+
+after_deploy:
+
+after_script:
