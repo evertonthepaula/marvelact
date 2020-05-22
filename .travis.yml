@@ -17,7 +17,6 @@ script:
 after_success:
 
 before_deploy:
-  - npm run build
 
 deploy:
   - bash ./travis/deploy.sh

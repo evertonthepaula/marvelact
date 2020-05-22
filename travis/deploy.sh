@@ -2,9 +2,14 @@
 set -e
 
 echo  -e "####################################"
+echo  -e "Build dist!"
+echo  -e "####################################"
+npm run build &&
+cd build
+
+echo  -e "####################################"
 echo  -e "Push!"
 echo  -e "####################################"
-cd build
 git init
 git config user.name "Travis CI"
 git config user.email "travisci@gmail.com"
