@@ -12,7 +12,11 @@ before_script:
 
 script:
   - npm run lint
+<<<<<<< HEAD
   # - npm test -- --watchAll=false
+=======
+  - npm test -- --watchAll=false
+>>>>>>> d54989b083f7ef4900414a6d5542998935e8865f
 
 after_success:
 
