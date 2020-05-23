@@ -71,13 +71,11 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "npm test --findeRelatedTests"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
     "*.js": "npm run format"
   },
-  "proxy": "https://gateway.marvel.com/v1/public/",
-  "homepage": "http://evertonthepaula.github.io/marvelact"
+  "proxy": "https://gateway.marvel.com/v1/public/"
 }
