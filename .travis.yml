@@ -3,6 +3,10 @@ language: node_js
 node_js:
   - "lts/*"
 
+cache:
+  directories:
+    - node_modules
+
 before_install:
 
 install:
@@ -13,13 +17,13 @@ before_script:
 script:
   - npm run lint
   # - npm test -- --watchAll=false
+  - bash ./travis/deploy.sh
 
 after_success:
 
 before_deploy:
 
 deploy:
-  - bash ./travis/deploy.sh
 
 after_deploy:
 

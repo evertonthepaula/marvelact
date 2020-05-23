@@ -79,5 +79,5 @@
     "*.js": "npm run format"
   },
   "proxy": "https://gateway.marvel.com/v1/public/",
-  "homepage": "http://evertonthepaula.github.io/marvelact"
+  "homepage": "https://evertonthepaula.github.io/marvelact.github.io/"
 }

@@ -4,8 +4,7 @@ set -e
 echo  -e "####################################"
 echo  -e "Build dist!"
 echo  -e "####################################"
-npm run build &&
-cd build
+npm run build && cd build
 
 echo  -e "####################################"
 echo  -e "Push!"
