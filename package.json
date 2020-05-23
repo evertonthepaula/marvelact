@@ -77,5 +77,6 @@
   "lint-staged": {
     "*.js": "npm run format"
   },
-  "proxy": "https://gateway.marvel.com/v1/public/"
+  "proxy": "https://gateway.marvel.com/v1/public/",
+  "homepage": "https://evertonthepaula.github.io/marvelact.github.io"
 }
