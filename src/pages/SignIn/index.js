@@ -48,8 +48,8 @@ export default function SignIn() {
       <Content>
         <Formik
           initialValues={{
-            publicKey: '4553c663afb2f1c989702edff9224a88',
-            privateKey: '1ad7772ba4bf4d2ccb09e93edee98fe70bfc555e',
+            publicKey: '',
+            privateKey: '',
           }}
           validate={(values) => {
             const errors = {};

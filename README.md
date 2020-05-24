@@ -1,4 +1,28 @@
+# Marvelact
+
+Marvel + React
+
+Proejeto em React para consumir API da Marvel.
+
+Repositório do projeto: https://github.com/evertonthepaula/marvelact
+
+Travis-CI faz o deploy da aplicação para o Github Pages: https://evertonthepaula.github.io/marvelact/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+## Config
+
+- Redux
+- Redux-sagas
+- redux-persist
+- immer
+- eslint-config-airbnb
+- husky
+- styled-components
+- formik
+- axios
+- Ant Design
 
 ## Available Scripts
 
